@@ -26,7 +26,7 @@ if ($key.Count -eq 1) {
     $key | ForEach-Object {Write-Warning "- $($_.DisplayName)"}
 }
 
-# Custome Settings from Package
+# Custom settings from package
 ## Remove files and folders
 if (Get-Item -Path "<Path>" -ErrorAction SilentlyContinue) {
     Remove-Item `
