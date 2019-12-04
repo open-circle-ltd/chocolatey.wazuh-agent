@@ -1,9 +1,20 @@
-# Chocolatey Package: wazuh-agent
-
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=popout-square)](licence) [![Chocolatey](https://img.shields.io/chocolatey/v/wazuh-agent?label=package%20version)](https://chocolatey.org/packages/wazuh-agent) [![Chocolatey](https://img.shields.io/chocolatey/dt/wazuh-agent?label=package%20downloads&style=flat-square)](https://chocolatey.org/packages/wazuh-agent)
-
-## Description
-
+<?xml version='1.0' encoding='UTF-8'?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wazuh-agent</id>
+    <title>Wazuh Agent</title>
+    <version>3.10.2</version>
+    <authors>Wazuh Inc.</authors>
+    <owners>ITIGO AG, sbaerlocher, jlruizmlg</owners>
+    <packageSourceUrl>https://github.com/itigoag/chocolatey.wazuh-agent</packageSourceUrl>
+    <projectUrl>https://documentation.wazuh.com/3.10/installation-guide/packages-list/index.html#windows</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.wazuh-agent@master/icon/wazuh-agent.png</iconUrl>
+    <tags>Wazuh Agent</tags>
+    <copyright>Wazuh Inc.</copyright> 
+    <licenseUrl>https://github.com/wazuh/wazuh/blob/master/LICENSE</licenseUrl> 
+    <requireLicenseAcceptance>false</requireLicenseAcceptance> 
+    <summary>Wazuh Agent</summary>
+    <description><![CDATA[
 Wazuh helps you to gain deeper security visibility into your infrastructure by monitoring hosts at an operating system and application level.
 
 ## Package Parameters
@@ -22,34 +33,9 @@ Wazuh helps you to gain deeper security visibility into your infrastructure by m
 - `RegistrationKey:` Specifies the key path.
 - `AgentName:` Designates the agent’s name. By default will be the computer name.
 - `AgentGroup:` Assigns the agent to one or more existing groups (separated by commas).
-
-## Installation
-
-installation without parameters.
-
-```ps1
- choco install wazuh-agent
-```
-
-installation with parameters.
-
-```ps1
- choco install wazuh-agent --params="'/Manager:192.168.1.5 /AgentName:Chcocolatey'"
-```
-
-## Disclaimer
-
-These Chocolatey Packages only contain installation routines. The software itself is downloaded from the official sources of the software developer. ITIGO AG has no affilation with the software developer.
-
-## Author
-
-- [Simon Bärlocher](https://sbaerlocher.ch)
-- [ITIGO AG](https://www.itigo.ch)
-
-## License
-
-This project is under the MIT License. See the [LICENSE](licence) file for the full license text.
-
-## Copyright
-
-(c) 2019, ITIGO AG
+]]></description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools"/>
+  </files>
+</package>
