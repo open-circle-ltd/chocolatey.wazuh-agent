@@ -17,29 +17,29 @@ Wazuh helps you to gain deeper security visibility into your infrastructure by m
 - `RegistrationPassword:` Sets the Authd password.
 - `KeepAliveInterval:` Sets the time between manager checks.
 - `TimeReconnect:` Sets the time in seconds until a reconnection attempt.
-- `RegistrationCA:` Specifies the certificate of authority path.
+- `RegistrationCA:` Specifies the path of the certificate authority.
 - `RegistrationCertificate:` Specifies the certificate path.
 - `RegistrationKey:` Specifies the key path.
-- `AgentName:` Designates the agent’s name. By default will be the computer name.
+- `AgentName:` Designates the agent's name. By default will be the computer name.
 - `AgentGroup:` Assigns the agent to one or more existing groups (separated by commas).
 
 ## Installation
 
-installation without parameters.
+Installation without parameters.
 
 ```ps1
  choco install wazuh-agent
 ```
 
-installation with parameters.
+Installation with parameters.
 
 ```ps1
- choco install wazuh-agent --params="'/Manager:192.168.1.5 /AgentName:Chcocolatey'"
+ choco install wazuh-agent --params="'/Manager:192.168.1.5 /AgentName:Chocolatey'"
 ```
 
 ## Disclaimer
 
-These Chocolatey Packages only contain installation routines. The software itself is downloaded from the official sources of the software developer. ITIGO AG has no affilation with the software developer.
+These Chocolatey packages only contain installation routines. The software itself is downloaded from the official sources of the software developer. ITIGO AG has no affilation with the software developer.
 
 ## Author
 
