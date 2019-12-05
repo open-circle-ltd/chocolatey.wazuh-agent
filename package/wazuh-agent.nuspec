@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wazuh-agent</id>
+    <title>Wazuh Agent</title>
+    <version>3.10.2</version>
+    <authors>Wazuh Inc.</authors>
+    <owners>ITIGO AG, sbaerlocher, jlruizmlg</owners>
+    <packageSourceUrl>https://github.com/itigoag/chocolatey.wazuh-agent</packageSourceUrl>
+    <projectUrl>https://documentation.wazuh.com/3.10/installation-guide/packages-list/index.html#windows</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.wazuh-agent@master/icon/wazuh-agent.png</iconUrl>
+    <tags>Wazuh Agent</tags>
+    <copyright>Wazuh Inc.</copyright> 
+    <licenseUrl>https://github.com/wazuh/wazuh/blob/master/LICENSE</licenseUrl> 
+    <requireLicenseAcceptance>false</requireLicenseAcceptance> 
+    <summary>Wazuh Agent</summary>
+    <description><![CDATA[
+Wazuh helps you to gain deeper security visibility into your infrastructure by monitoring hosts at an operating system and application level.
+
+## Package Parameters
+
+- `ApplicationFolder:` Sets the installation path. Default C:\Program Files (x86)\ossec-agent.
+- `Manager:` Specifies the managers IP address or hostname. This option also accepts a list of IPs or hostnames separated by semicolons.
+- `ManagerPort:` Specifies the managers connection port.
+- `Protocol:` Sets the communication protocol between the manager and the agent. Accepts UDP and TCP. Default is UDP.
+- `RegistrationServer:` Specifies the Authd IP address.
+- `RegistrationPort:` Specifies the Authd connection port.
+- `RegistrationPassword:` Sets the Authd password.
+- `KeepAliveInterval:` Sets the time between manager checks.
+- `TimeReconnect:` Sets the time in seconds until a reconnection attempt.
+- `RegistrationCA:` Specifies the path of the certificate authority.
+- `RegistrationCertificate:` Specifies the certificate path.
+- `RegistrationKey:` Specifies the key path.
+- `AgentName:` Designates the agent’s name. By default will be the computer name.
+- `AgentGroup:` Assigns the agent to one or more existing groups (separated by commas).
+]]></description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools"/>
+  </files>
+</package>
