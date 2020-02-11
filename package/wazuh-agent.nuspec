@@ -3,7 +3,7 @@
   <metadata>
     <id>wazuh-agent</id>
     <title>Wazuh Agent</title>
-    <version>3.10.2</version>
+    <version>3.11.3</version>
     <authors>Wazuh Inc.</authors>
     <owners>ITIGO AG, sbaerlocher, jlruizmlg</owners>
     <packageSourceUrl>https://github.com/itigoag/chocolatey.wazuh-agent</packageSourceUrl>
