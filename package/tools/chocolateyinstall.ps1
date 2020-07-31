@@ -68,11 +68,11 @@ Write-Output $args
 $packageArgs = @{
     packageName    = $env:ChocolateyPackageName
     fileType       = 'msi'
-    url            = "https://packages.wazuh.com/3.x/windows/wazuh-agent-3.11.3-1.msi"
-    checksum       = "712c7b6dca733e182183c89d4f8123c91e40224e50c4526a98b4c641d61efb2ee6656d26232a6b63bbba820cc7c35c0234f32dd6ff713123f8d46c8b7e7ad60b"
+    url            = "https://packages.wazuh.com/3.x/windows/wazuh-agent-3.13.1-1.msi"
+    checksum       = "d5396f3f785d3fe50ae22bdbcf63e70137ff7ce130e73faea61c17a5397452fb23492cc0c76582f917633e28be2c6baa5beba0532e417cdf6bcf152daa5b0fce"
     checksumType   = 'SHA512'
-    url64          = "https://packages.wazuh.com/3.x/windows/wazuh-agent-3.11.3-1.msi"
-    checksum64     = "712c7b6dca733e182183c89d4f8123c91e40224e50c4526a98b4c641d61efb2ee6656d26232a6b63bbba820cc7c35c0234f32dd6ff713123f8d46c8b7e7ad60b"
+    url64          = "https://packages.wazuh.com/3.x/windows/wazuh-agent-3.13.1-1.msi"
+    checksum64     = "d5396f3f785d3fe50ae22bdbcf63e70137ff7ce130e73faea61c17a5397452fb23492cc0c76582f917633e28be2c6baa5beba0532e417cdf6bcf152daa5b0fce"
     checksumType64 = 'SHA512'
     silentArgs     = "$($args) /q"
     ValidExitCodes = @(0, 1000, 1101)
