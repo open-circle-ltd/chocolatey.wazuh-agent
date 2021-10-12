@@ -3,11 +3,11 @@
   <metadata>
     <id>wazuh-agent</id>
     <title>Wazuh Agent</title>
-    <version>4.0.3</version>
+    <version>4.2.2</version>
     <authors>Wazuh Inc.</authors>
     <owners>ITIGO AG, sbaerlocher, jlruizmlg</owners>
     <packageSourceUrl>https://github.com/itigoag/chocolatey.wazuh-agent</packageSourceUrl>
-    <projectUrl>https://documentation.wazuh.com/3.13/installation-guide/packages-list/index.html#windows</projectUrl>
+    <projectUrl>https://documentation.wazuh.com/4.2/installation-guide/wazuh-agent/wazuh_agent_package_windows.html</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.wazuh-agent@master/icon/wazuh-agent.png</iconUrl>
     <tags>Wazuh Agent</tags>
     <copyright>Wazuh Inc.</copyright> 
