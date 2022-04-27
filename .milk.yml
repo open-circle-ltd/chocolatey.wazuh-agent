@@ -36,7 +36,7 @@ deploy:
   - provider: github
     name: "OpenCircle-Choco-Bot"
     email: "chocomilk@open-circle.ch"
-    url: github.com/open-circle-ltd/chocolatey.microsoft-office-deployment.git
+    url: github.com/open-circle-ltd/chocolatey.wazuh-agent.git
     key: "{{ lookup('env','GITHUB_API_KEY') }}"
     
 # Notification
