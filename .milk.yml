@@ -3,12 +3,10 @@
 
 # Package Changelog
 changelog: "https://release-monitoring.org/api/v2/projects/?name=Wazuh%20Agent%20Windows"
+changelog_format: json
 
 # Regex for Version
-version: "{{ register_changelog.content |
-  regex_search('[0-9]+-[0-9]+-[0-9]+') |
-  regex_replace('[-|_]', '.')
-  }}"
+version: "{{ register_changelog.json['items'][0].version }}"
 
 # Download URL
 url: "https://packages.wazuh.com/4.x/windows/wazuh-agent-{{ version }}-1.msi"
@@ -38,7 +36,7 @@ deploy:
     email: "chocomilk@open-circle.ch"
     url: github.com/open-circle-ltd/chocolatey.wazuh-agent.git
     key: "{{ lookup('env','GITHUB_API_KEY') }}"
-    
+
 # Notification
 notifications:
   - provider: mattermost
