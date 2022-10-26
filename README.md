@@ -39,12 +39,12 @@ Installation with parameters.
 
 ## Disclaimer
 
-These Chocolatey packages only contain installation routines. The software itself is downloaded from the official sources of the software developer. ITIGO AG has no affilation with the software developer.
+These Chocolatey packages only contain installation routines. The software itself is downloaded from the official sources of the software developer. Open Circle AG has no affilation with the software developer.
 
 ## Author
 
 - [Simon Bärlocher](https://sbaerlocher.ch)
-- [ITIGO AG](https://www.itigo.ch)
+- [Open Circle AG](https://www.open-circle.ch)
 
 ## License
 
@@ -52,4 +52,4 @@ This project is under the MIT License. See the [LICENSE](licence) file for the f
 
 ## Copyright
 
-(c) 2019, ITIGO AG
+(c) 2022, Open Circle AG
