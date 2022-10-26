@@ -63,7 +63,7 @@ if ($PackageParameters['AgentName']) {
 }
 
 if ($PackageParameters['AgentGroup']) {
-    $args = $args + " WAZUH_AGENT_GROUP=" + $PackageParameters['Group']
+    $args = $args + " WAZUH_AGENT_GROUP=" + $PackageParameters['AgentGroup']
 }
 
 Write-Output $args
