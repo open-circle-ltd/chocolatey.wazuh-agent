@@ -6,7 +6,7 @@ changelog: "https://release-monitoring.org/api/v2/projects/?name=Wazuh%20Agent%2
 changelog_format: json
 
 # Regex for Version
-version: "{{ register_changelog.json['items'][0].version }}"
+version: "{{ register_changelog.json['items'][0].stable_versions }}"
 
 # Download URL
 url: "https://packages.wazuh.com/4.x/windows/wazuh-agent-{{ version }}-1.msi"
