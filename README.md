@@ -52,4 +52,4 @@ This project is under the MIT License. See the [LICENSE](licence) file for the f
 
 ## Copyright
 
-(c) 2022, Open Circle AG
+(c) 2023, Open Circle AG
