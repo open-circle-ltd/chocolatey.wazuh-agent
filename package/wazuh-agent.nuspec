@@ -7,6 +7,7 @@
     <authors>Wazuh Inc.</authors>
     <owners>Open Circle AG, sbaerlocher, jlruizmlg</owners>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wazuh-agent</packageSourceUrl>
+    <releaseNotes>https://documentation.wazuh.com/current/release-notes/index.html</releaseNotes>
     <projectUrl>https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-windows.html</projectUrl>
     <iconUrl>https://github.com/open-circle-ltd/chocolatey.wazuh-agent/blob/12c54e6aec49e8617fdd51e572b53dcda0f02757/icon/wazuh-agent.png</iconUrl>
     <tags>Wazuh Agent</tags>
