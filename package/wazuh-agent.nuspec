@@ -5,10 +5,11 @@
     <title>Wazuh Agent</title>
     <version>4.3.9</version>
     <authors>Wazuh Inc.</authors>
-    <owners>ITIGO AG, sbaerlocher, jlruizmlg</owners>
-    <packageSourceUrl>https://github.com/itigoag/chocolatey.wazuh-agent</packageSourceUrl>
-    <projectUrl>https://documentation.wazuh.com/4.2/installation-guide/wazuh-agent/wazuh_agent_package_windows.html</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.wazuh-agent@master/icon/wazuh-agent.png</iconUrl>
+    <owners>Open Circle AG, sbaerlocher, jlruizmlg</owners>
+    <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wazuh-agent</packageSourceUrl>
+    <releaseNotes>https://documentation.wazuh.com/current/release-notes/index.html</releaseNotes>
+    <projectUrl>https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-windows.html</projectUrl>
+    <iconUrl>https://github.com/open-circle-ltd/chocolatey.wazuh-agent/blob/12c54e6aec49e8617fdd51e572b53dcda0f02757/icon/wazuh-agent.png</iconUrl>
     <tags>Wazuh Agent</tags>
     <copyright>Wazuh Inc.</copyright> 
     <licenseUrl>https://github.com/wazuh/wazuh/blob/master/LICENSE</licenseUrl> 
