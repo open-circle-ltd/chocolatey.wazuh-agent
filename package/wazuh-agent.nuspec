@@ -5,15 +5,19 @@
     <title>Wazuh Agent</title>
     <version>4.3.10</version>
     <authors>Wazuh Inc.</authors>
+    <copyright>Wazuh Inc.</copyright>
+    <projectUrl>https://wazuh.com/</projectUrl>
+    <releaseNotes>https://documentation.wazuh.com/current/release-notes/index.html</releaseNotes>
+    <projectSourceUrl>https://github.com/wazuh/wazuh</projectSourceUrl>
+    <docsUrl>https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-windows.html</docsUrl>
+    <bugTrackerUrl>https://github.com/wazuh/wazuh/issues</bugTrackerUrl>
+    <mailingListUrl>https://groups.google.com/g/wazuh/?pli=1</mailingListUrl>
+    <licenseUrl>https://github.com/wazuh/wazuh/blob/master/LICENSE</licenseUrl>
     <owners>Open Circle AG, sbaerlocher, jlruizmlg</owners>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wazuh-agent</packageSourceUrl>
-    <releaseNotes>https://documentation.wazuh.com/current/release-notes/index.html</releaseNotes>
-    <projectUrl>https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-windows.html</projectUrl>
     <iconUrl>https://github.com/open-circle-ltd/chocolatey.wazuh-agent/blob/12c54e6aec49e8617fdd51e572b53dcda0f02757/icon/wazuh-agent.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>Wazuh Agent</tags>
-    <copyright>Wazuh Inc.</copyright> 
-    <licenseUrl>https://github.com/wazuh/wazuh/blob/master/LICENSE</licenseUrl> 
-    <requireLicenseAcceptance>false</requireLicenseAcceptance> 
     <summary>Wazuh Agent</summary>
     <description>Wazuh helps you to gain deeper security visibility into your infrastructure by monitoring hosts at an operating system and application level.
 
