@@ -3,7 +3,7 @@
   <metadata>
     <id>wazuh-agent</id>
     <title>Wazuh Agent</title>
-    <version>4.3.9</version>
+    <version>4.3.10</version>
     <authors>Wazuh Inc.</authors>
     <owners>Open Circle AG, sbaerlocher, jlruizmlg</owners>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wazuh-agent</packageSourceUrl>
@@ -26,6 +26,27 @@
 - `RegistrationServer:` Specifies the Authd IP address.
 - `RegistrationPort:` Specifies the Authd connection port.
 - `RegistrationPassword:` Sets the Authd password.
+- `KeepAliveInterval:` Sets the time between manager checks.
+- `TimeReconnect:` Sets the time in seconds until a reconnection attempt.
+- `RegistrationCA:` Specifies the path of the certificate authority.
+- `RegistrationCertificate:` Specifies the certificate path.
+- `RegistrationKey:` Specifies the key path.
+- `AgentName:` Designates the agent's name. By default will be the computer name.
+- `AgentGroup:` Assigns the agent to one or more existing groups (separated by commas).
+
+## Installation
+
+Installation without parameters.
+
+```ps1
+ choco install wazuh-agent
+```
+
+Installation with parameters.
+
+```ps1
+ choco install wazuh-agent --params="'/Manager:192.168.1.5 /AgentName:Chocolatey'"
+```
 </description>
   </metadata>
   <files>
