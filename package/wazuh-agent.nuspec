@@ -3,7 +3,7 @@
   <metadata>
     <id>wazuh-agent</id>
     <title>Wazuh Agent</title>
-    <version>4.5.2</version>
+    <version>4.5.3</version>
     <authors>Wazuh Inc.</authors>
     <owners>Open Circle AG, sbaerlocher, jlruizmlg</owners>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wazuh-agent</packageSourceUrl>
