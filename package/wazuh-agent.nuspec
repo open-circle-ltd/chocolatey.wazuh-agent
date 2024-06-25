@@ -1,20 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>wazuh-agent</id>
+    <version>4.7.4</version>
     <title>Wazuh Agent</title>
-    <version>4.7.3</version>
     <authors>Wazuh Inc.</authors>
     <owners>Open Circle AG, sbaerlocher, jlruizmlg</owners>
-    <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wazuh-agent</packageSourceUrl>
-    <releaseNotes>https://documentation.wazuh.com/current/release-notes/index.html</releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/wazuh/wazuh/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-windows.html</projectUrl>
     <iconUrl>https://github.com/open-circle-ltd/chocolatey.wazuh-agent/blob/12c54e6aec49e8617fdd51e572b53dcda0f02757/icon/wazuh-agent.png</iconUrl>
-    <tags>Wazuh Agent</tags>
-    <copyright>Wazuh Inc.</copyright> 
-    <licenseUrl>https://github.com/wazuh/wazuh/blob/master/LICENSE</licenseUrl> 
-    <requireLicenseAcceptance>false</requireLicenseAcceptance> 
-    <summary>Wazuh Agent</summary>
     <description>Wazuh helps you to gain deeper security visibility into your infrastructure by monitoring hosts at an operating system and application level.
 
 ## Package Parameters
@@ -46,10 +41,11 @@ Installation with parameters.
 
 ```ps1
  choco install wazuh-agent --params="'/Manager:192.168.1.5 /AgentName:Chocolatey'"
-```
-</description>
+```</description>
+    <summary>Wazuh Agent</summary>
+    <releaseNotes>https://documentation.wazuh.com/current/release-notes/index.html</releaseNotes>
+    <copyright>Wazuh Inc.</copyright>
+    <tags>Wazuh Agent</tags>
+    <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wazuh-agent</packageSourceUrl>
   </metadata>
-  <files>
-    <file src="tools/**" target="tools"/>
-  </files>
 </package>
