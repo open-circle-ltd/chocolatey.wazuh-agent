@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wazuh-agent</id>
-    <version>4.7.4</version>
+    <version>4.8.0</version>
     <title>Wazuh Agent</title>
     <authors>Wazuh Inc.</authors>
     <owners>Open Circle AG, sbaerlocher, jlruizmlg</owners>
@@ -41,7 +41,8 @@ Installation with parameters.
 
 ```ps1
  choco install wazuh-agent --params="'/Manager:192.168.1.5 /AgentName:Chocolatey'"
-```</description>
+```
+</description>
     <summary>Wazuh Agent</summary>
     <releaseNotes>https://documentation.wazuh.com/current/release-notes/index.html</releaseNotes>
     <copyright>Wazuh Inc.</copyright>
