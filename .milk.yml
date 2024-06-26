@@ -29,8 +29,8 @@ deploy:
     repository: "https://push.chocolatey.org/"
     key: "{{ lookup('env','CHOCOLATEY_ORG_API_KEY') }}"
   - provider: chocolatey
-    repository: "https://nuget.itigo.tech/upload"
-    key: "{{ lookup('env','CHOCOLATEY_ITIGO_API_KEY') }}"
+    repository: "https://packages.ocrcl.ch/v3/index.json"
+    key: "{{ lookup('env','CHOCOLATEY_CHOCOWALL_API_KEY') }}"
   - provider: github
     name: "OpenCircle-Choco-Bot"
     email: "chocomilk@open-circle.ch"
