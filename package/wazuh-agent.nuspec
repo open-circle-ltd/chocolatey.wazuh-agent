@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wazuh-agent</id>
     <version>4.7.4</version>
@@ -48,4 +48,7 @@ Installation with parameters.
     <tags>Wazuh Agent</tags>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wazuh-agent</packageSourceUrl>
   </metadata>
+  <files>
+    <file src="tools/**" target="tools"/>
+  </files>
 </package>
