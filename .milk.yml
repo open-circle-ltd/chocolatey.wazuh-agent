@@ -26,9 +26,6 @@ readme:
 # deploy
 deploy:
   - provider: chocolatey
-    repository: "https://packages.ocrcl.ch/v3/index.json"
-    key: "{{ lookup('env','CHOCOLATEY_CHOCOWALL_API_KEY') }}"
-  - provider: chocolatey
     repository: "https://push.chocolatey.org/"
     key: "{{ lookup('env','CHOCOLATEY_ORG_API_KEY') }}"
   - provider: github
