@@ -2,11 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wazuh-agent</id>
+    <version>4.8.0</version>
     <title>Wazuh Agent</title>
-    <version>4.3.10</version>
     <authors>Wazuh Inc.</authors>
     <copyright>Wazuh Inc.</copyright>
-    <projectUrl>https://wazuh.com/</projectUrl>
+    <projectUrl>https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-windows.html</projectUrl>
     <releaseNotes>https://documentation.wazuh.com/current/release-notes/index.html</releaseNotes>
     <projectSourceUrl>https://github.com/wazuh/wazuh</projectSourceUrl>
     <docsUrl>https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-windows.html</docsUrl>
@@ -52,6 +52,11 @@ Installation with parameters.
  choco install wazuh-agent --params="'/Manager:192.168.1.5 /AgentName:Chocolatey'"
 ```
 </description>
+    <summary>Wazuh Agent</summary>
+    <releaseNotes>https://documentation.wazuh.com/current/release-notes/index.html</releaseNotes>
+    <copyright>Wazuh Inc.</copyright>
+    <tags>Wazuh Agent</tags>
+    <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wazuh-agent</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools/**" target="tools"/>
