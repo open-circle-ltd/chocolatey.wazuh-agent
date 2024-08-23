@@ -2,8 +2,8 @@
 $PackageParameters = Get-PackageParameters
 
 $toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-$urlPackage = 'https://packages.wazuh.com/4.x/windows/wazuh-agent-4.8.1-1.msi'
-$checksumPackage = 'e5e0069d2f97492ec849391e8c717e486285fe13776bc9fb1ccddf7c7708357d7390aa781e9c5638bd4a9854798c139c7c82334ec598ec6d9c7c7defb5bea7cd'
+$urlPackage = 'https://packages.wazuh.com/4.x/windows/wazuh-agent-4.8.2-1.msi'
+$checksumPackage = '51b8ec374af454c2b02cf59200d9bc220060b475b74c8e38e273d7872614a8cf3fe2969f879838c81f355e0fa4eacede2be20b35447e6115ad1cfb1c7cd06e98'
 
 Import-Module -Name "$($toolsDir)\helpers.ps1"
 
